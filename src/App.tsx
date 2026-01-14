@@ -7,21 +7,13 @@ const onButtonClick = (message: string) => {
 function App() {
   return (
     <div>
-      <Button
-        message="Primary"
-        classes="btn btn-primary"
-        handleClick={onButtonClick}
-      >
+      <Button message="Primary" type="primary" handleClick={onButtonClick}>
         Primary
       </Button>
-      <Button
-        message="Danger"
-        classes="btn btn-danger"
-        handleClick={onButtonClick}
-      >
+      <Button message="Danger" type="danger" handleClick={onButtonClick}>
         Danger
       </Button>
-      <Button message="Link" classes="btn btn-link" handleClick={onButtonClick}>
+      <Button message="Link" type="link" handleClick={onButtonClick}>
         Link
       </Button>
     </div>

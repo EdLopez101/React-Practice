@@ -1,15 +1,20 @@
 interface Props {
   children: string;
-  classes: string;
+  type?: string;
   handleClick: (message: string) => void;
   message: string;
 }
 
-const Button = ({ children, classes, handleClick, message }: Props) => {
+const Button = ({
+  children,
+  type = "btn btn-primary",
+  handleClick,
+  message,
+}: Props) => {
   return (
     <button
       type="button"
-      className={classes}
+      className={"btn btn-" + type}
       onClick={() => handleClick(message)}
     >
       {children}
