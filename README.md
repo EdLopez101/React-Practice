@@ -1,1 +1,1 @@
-This is a practice repo
+This repo holds my practice project for React
