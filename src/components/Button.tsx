@@ -7,7 +7,7 @@ interface Props {
 
 const Button = ({
   children,
-  type = "btn btn-primary",
+  type = "primary",
   handleClick,
   message,
 }: Props) => {
