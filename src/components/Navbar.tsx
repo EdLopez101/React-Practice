@@ -19,32 +19,14 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <div>Home</div>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                href="#"
-                aria-expanded="false"
-              >
-                Dropdown
+              <a className="nav-link" aria-current="page" href="/">
+                Home
               </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#"></a>Option 1
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#"></a>Option 2
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#"></a>Option 3
-                </li>
-              </ul>
             </li>
             <li className="nav-item">
-              <div>Home</div>
+              <a className="nav-link" href="login">
+                Log In
+              </a>
             </li>
           </ul>
         </div>
