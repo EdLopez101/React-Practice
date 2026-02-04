@@ -13,18 +13,16 @@ function Home() {
 
 function LogIn() {
   return (
-    <>
-      <body className="m-4"></body>
+    <div className="m-4">
       <h1>Log In</h1>
       <Login></Login>
-    </>
+    </div>
   );
 }
 
 function App() {
   return (
     <BrowserRouter>
-      <body className="m-4"></body>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
